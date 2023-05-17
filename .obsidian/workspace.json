@@ -13,10 +13,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Assignments/Chapter 1.md",
+                "file": "Chapters/1. Introduction to PKM and Obsidian.md",
                 "mode": "source",
                 "source": false
               }
+            }
+          }
+        ]
+      },
+      {
+        "id": "7d19b12a5aca279e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1fff74e1d7d9ea18",
+            "type": "leaf",
+            "state": {
+              "type": "reveal-preview-view",
+              "state": {}
             }
           }
         ]
@@ -85,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Assignments/Chapter 1.md",
+                "file": "Chapters/1. Introduction to PKM and Obsidian.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Assignments/Chapter 1.md",
+                "file": "Chapters/1. Introduction to PKM and Obsidian.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Assignments/Chapter 1.md"
+                "file": "Chapters/1. Introduction to PKM and Obsidian.md"
               }
             }
           }
@@ -147,12 +161,13 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "0f536f97441e78ef",
+  "active": "895c93b5389cd92f",
   "lastOpenFiles": [
-    "Submissions/Chapter 1",
-    "Submissions",
+    "Obsidian PKM Essentials Outline.md",
     "Chapters/1. Introduction to PKM and Obsidian.md",
     "Assignments/Chapter 1.md",
+    "Submissions/Chapter 1",
+    "Submissions",
     "Assignments",
     "html/1. Introduction to PKM and Obsidian/Slides/Personal Knowledge Management/Extras/Images/Pasted image 20230512155444.png",
     "html/1. Introduction to PKM and Obsidian/Slides/Personal Knowledge Management/Extras/Images",
@@ -172,12 +187,10 @@
     "html/1. Introduction to PKM and Obsidian/plugin/chalkboard/img/sponge.png",
     "html/1. Introduction to PKM and Obsidian/plugin/chalkboard/style.css",
     "html/1. Introduction to PKM and Obsidian/plugin/chalkboard/plugin.js",
-    "html/1. Introduction to PKM and Obsidian/plugin/chalkboard/plugin (copy).js",
     "html/1. Introduction to PKM and Obsidian/plugin/chart/README.md",
     "html/1. Introduction to PKM and Obsidian/plugin/customcontrols/README.md",
     "html/1. Introduction to PKM and Obsidian/plugin/menu/CONTRIBUTING.md",
     "html/1. Introduction to PKM and Obsidian/plugin/menu/README.md",
-    "Obsidian PKM Essentials Outline.md",
     "Obsidian PKM Essentials Introduction.md"
   ]
 }
