@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <title></title>
+    <link rel="stylesheet" href="dist/reveal.css" />
+    <link rel="stylesheet" href="dist/theme/ObsPKM.css" id="theme" />
+    <link rel="stylesheet" href="plugin/highlight/zenburn.css" />
+	<link rel="stylesheet" href="css/layout.css" />
+	<link rel="stylesheet" href="plugin/customcontrols/style.css">
+	<link rel="stylesheet" href="plugin/chalkboard/style.css">
+
+
+
+    <script defer src="dist/fontawesome/all.min.js"></script>
+
+	<script type="text/javascript">
+		var forgetPop = true;
+		function onPopState(event) {
+			if(forgetPop){
+				forgetPop = false;
+			} else {
+				parent.postMessage(event.target.location.href, "app://obsidian.md");
+			}
+        }
+		window.onpopstate = onPopState;
+		window.onmessage = event => {
+			if(event.data == "reload"){
+				window.document.location.reload();
+			}
+			forgetPop = true;
+		}
+
+		function fitElements(){
+			const itemsToFit = document.getElementsByClassName('fitText');
+			for (const item in itemsToFit) {
+				if (Object.hasOwnProperty.call(itemsToFit, item)) {
+					var element = itemsToFit[item];
+					fitElement(element,1, 1000);
+					element.classList.remove('fitText');
+				}
+			}
+		}
+
+		function fitElement(element, start, end){
+
+			let size = (end + start) / 2;
+			element.style.fontSize = `${size}px`;
+
+			if(Math.abs(start - end) < 1){
+				while(element.scrollHeight > element.offsetHeight){
+					size--;
+					element.style.fontSize = `${size}px`;
+				}
+				return;
+			}
+
+			if(element.scrollHeight > element.offsetHeight){
+				fitElement(element, start, size);
+			} else {
+				fitElement(element, size, end);
+			}		
+		}
+
+
+		document.onreadystatechange = () => {
+			fitElements();
+			if (document.readyState === 'complete') {
+				if (window.location.href.indexOf("?export") != -1){
+					parent.postMessage(event.target.location.href, "app://obsidian.md");
+				}
+				if (window.location.href.indexOf("print-pdf") != -1){
+					let stateCheck = setInterval(() => {
+						clearInterval(stateCheck);
+						window.print();
+					}, 250);
+				}
+			}
+	};
+
+
+        </script>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides"><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### Obsidian
+
+&
+
+### Personal Knowledge Management
+
+#### Essentials <!-- .element: style="margin: 1em" -->
+
+1. Introduction to Obsidian and PKM 
+2. PKM Concepts <!-- .element: style="color: red" -->
+3. Notes in Obsidian
+4. Video walk-throughs
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+## Chapter 2
+
+### Zettelkasten
+
+Definition.
+
+From index cards to computer files.
+
+German for slipbox or card file.
+
+Based on the ideas of atomic notes and metadata.
+
+The traditional card catalog in libraries would be an example.
+
+Metadata refers to information about information. A common example that we hear a lot about relates to phone information. There's of course the call itself which is the real information quote on quote. But there's also metadata like the time of the call the duration of the call who called whom Etc.
+
+<img src="Extras/Images/Pasted image 20230516023854.png" alt="" style="object-fit: scale-down">
+
+
+17th Century example.
+
+A **_Zettelkasten_** (German: "slip box", plural **_Zettelkästen_**) or **card file** consists of small items of information stored on paper slips or cards that may be linked to each other through [subject headings](https://en.m.wikipedia.org/wiki/Index_term "Index term") or other [metadata](https://en.m.wikipedia.org/wiki/Metadata "Metadata") such as numbers and [tags](https://en.m.wikipedia.org/wiki/Tag_(metadata) "Tag (metadata)").1(https://en.m.wikipedia.org/wiki/Zettelkasten#cite_note-1)2(https://en.m.wikipedia.org/wiki/Zettelkasten#cite_note-Eco-2) It has often been used as a system of [note-taking](https://en.m.wikipedia.org/wiki/Note-taking "Note-taking") and [personal knowledge management](https://en.m.wikipedia.org/wiki/Personal_knowledge_management "Personal knowledge management") for research, study, and writing.3(https://en.m.wikipedia.org/wiki/Zettelkasten#cite_note-3)
+
+[3] Mattern, Shannon (December 2020). "The Spectacle of Data: A Century of Fairs, _Fiches_, and Fantasies". _[Theory, Culture & Society](https://en.m.wikipedia.org/wiki/Theory,_Culture_%26_Society "Theory, Culture & Society")_. **37** (7–8): 133–155 (146). [doi](https://en.m.wikipedia.org/wiki/Doi_(identifier) "Doi (identifier)"):[10.1177/0263276420958052](https://doi.org/10.1177%2F0263276420958052). [S2CID](https://en.m.wikipedia.org/wiki/S2CID_(identifier) "S2CID (identifier)") [225124110](https://api.semanticscholar.org/CorpusID:225124110). Over the decades, cards put to personal use have provided aesthetic and intellectual inspiration to myriad artists, writers, and designers." 
+
+1.   Halasz, Frank G. (July 1988). ["Reflections on NoteCards: Seven Issues for the Next Generation of Hypermedia Systems"](https://doi.org/10.1145%2F48511.48514). _[Communications of the ACM](https://en.m.wikipedia.org/wiki/Communications_of_the_ACM "Communications of the ACM")_. **31** (7): 836–852. [doi](https://en.m.wikipedia.org/wiki/Doi_(identifier) "Doi (identifier)"):[10.1145/48511.48514](https://doi.org/10.1145%2F48511.48514). NoteCards was designed to help people work with ideas. Its intended users are authors, researchers, designers, and other intellectual laborers engaged in analyzing information, constructing models, formulating arguments, designing artifacts, and generally processing ideas. The system provides the user with a network of electronic notecards interconnected by typed links. ... Fileboxes are specialized cards that can be used to organize or categorize large collections of notecards."
+
+Earliest examples are from the 16th century.
+
+https://en.m.wikipedia.org/wiki/Carl_Linnaeus famously used
+
+Common among European scholars by the end of the 19th century but at that point still relatively new to the United States
+
+Physical problems of applying metadata to cards.
+
+Early 20th century movement away from taking notes in books and or taking notes on slips and then putting them in books.
+
+Detach the information from the source while preserving the reference.
+
+Concept of hierarchical structures.
+
+Most famous example of Zero costume https://en.m.wikipedia.org/wiki/Niklas_Luhmann
+
+[Niklas Luhmann - Wikipedia](https://en.m.wikipedia.org/wiki/Niklas_Luhmann)
+
+Starting in 1952–1953, Luhmann built up a _Zettelkasten_ of some 90,000 index cards for his research, and credited it for enabling his extraordinarily prolific writing (including about 50 books and 550 articles).
+
+CITATIONClose
+
+[52] Schmidt, Johannes (2016). ["Niklas Luhmann's Card Index: Thinking Tool, Communication Partner, Publication Machine"](https://pub.uni-bielefeld.de/download/2942475/2942530/jschmidt_2016_niklas%20luhmanns%20card%20index.pdf) (PDF). In Cevolini, Alberto (ed.). _Forgetting Machines: Knowledge Management Evolution in Early Modern Europe_. Leiden; Boston: [Brill](https://en.m.wikipedia.org/wiki/Brill_Publishers "Brill Publishers"). pp. 289–311. [doi](https://en.m.wikipedia.org/wiki/Doi_(identifier) "Doi (identifier)"):[10.1163/9789004325258_014](https://doi.org/10.1163%2F9789004325258_014). [ISBN](https://en.m.wikipedia.org/wiki/ISBN_(identifier) "ISBN (identifier)") [978-90-04-27846-2](https://en.m.wikipedia.org/wiki/Special:BookSources/978-90-04-27846-2 "Special:BookSources/978-90-04-27846-2"). [OCLC](https://en.m.wikipedia.org/wiki/OCLC_(identifier) "OCLC (identifier)") [951955805](https://www.worldcat.org/oclc/951955805). [Archived](https://web.archive.org/web/20201127182630/https://pub.uni-bielefeld.de/download/2942475/2942530/jschmidt_2016_niklas%20luhmanns%20card%20index.pdf) (PDF) from the original on 2020-11-27. Retrieved
+
+Used by Phyllis diller, Bob Hope, George carlin, and Joan Rivers.
+
+Physical limitations of a quote unquote analog card catalog.
+
+With the Advent of computers these physical issues go away and the possibilities for metadata grow considerably.
+
+Interestingly, most people started using the new technology in the old way by creating large documents for books and classes. But this is only marginally better than taking notes in physical books.
+
+Recently software has been developed that allows us to truly implement a zeto casting system liberal, flexible use of metadata.
+
+Obsidian stands out against its rivals for a few reasons:
+1. Flexible use of metadata 
+2. Rich method for cross referencing data
+3. Ease of incorporating non-textual elements
+4. Of creating references and footnotes
+5. Powerful search function to ensure that nothing gets lost
+6. It's free
+7. Your actual notes and all of your data are stored in text files and other non proprietary formats so they can be used independently of obsidian
+8. Follows the principal that your data is your own to do what you want with
+
+One way that settle cast the notes are used is fleeting notes, literature notes, permanent notes and mocs
+
+Another way to think about it is atomic notes, summaries, and product notes.
+
+No hard lines, everything is flexible.
+
+There is also the concept of evergreen notes, which incorporates the idea that notes Canon should be updated over time when new information is received. This is easily done in obsidian due to its Rich linking abilities
+
+### Atomic notes
+
+1. Each note contains one single self-contained idea or piece of information
+2. The note is self-explanatory and does not require reading another note to understand
+3. The note May change or evolve over time
+4. The note should be related to other notes by reference (links)
+5. By hierarchy (parent, child,  sibling, previous, next) not every note needs to have all of these things
+6. and given appropriate metadata (obsidian facilitates the arbitrary creation of fields for metadata)
+
+### Fleeting notes
+
+Fleeting notes are undeveloped ideas and quick references to information you encounter
+
+Immediacy is important so that you can get back to ideas and information and not forget about them
+
+Fleeting notes will evolve into permanent notes or be discarded (pun intended ). There is no harm keeping them around though so don't be quick to discard. Maybe you should come back to it later. You could even note how many times you had looked at the note with metadata.
+
+You are encouraged not to return immediately to your fleeting notes. It's often better to return to them later.
+
+### Permanent/Evergreen notes
+
+A note that has been given appropriate metadata and placed in the hierarchical structure. It is the evolution of a fleeting note.
+
+### Maps of content
+
+These are special type of note which allows you to organize permanent notes relating to a given topic. They are sort of index to your notes.
+
+### Production Notes
+
+A production note is neither atomic nor really a note, except that everything in in obsidian is called a note.
+
+It can be thought of as an enriched map of content.
+
+Articles would be an example of what I'm calling production notes. They are larger documents which develop or expose your ideas drawing on notes in your vault and incorporating non-textual elements such as images, drawings, graphs, charts, etc
+
+### Category
+
+I like to also distinguish two different note categories. One category are notes based on research. The other category are notes that originate from your own thoughts.
+
+### Daily Note
+
+These are not traditional settle casting notes.
+
+Daily notes allow you to organize other aspects of your vault and your personal knowledge Management.
+
+They serve as a central organizational point for your activities as well as documenting history.
+
+Logging and task management 
+
+## implementing zettel casting in obsidian
+
+An opportunity to think about how you think.
+
+Many different approaches, choose one that feels clear and understandable and simple to you. After a while you may decide to change which is relatively easy.
+
+I'm using the ACCESS structure from [Linking Your Thinking](https://www.linkingyourthinking.com)
+
+
+
+- templates
+- folders
+- backlinks 
+- tags
+- data fields (dataview )
+- daily note 
+	- logs
+	- tasks
+-
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### References
+</div></script></section></div>
+    </div>
+
+    <script src="dist/reveal.js"></script>
+
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+    <script src="plugin/zoom/zoom.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/math/math.js"></script>
+	<script src="plugin/mermaid/mermaid.js"></script>
+	<script src="plugin/chart/chart.min.js"></script>
+	<script src="plugin/chart/plugin.js"></script>
+	<script src="plugin/menu/menu.js"></script>
+	<script src="plugin/customcontrols/plugin.js"></script>
+	<script src="plugin/chalkboard/plugin.js"></script>
+	<script src="plugin/elapsed-time-bar/elapsed-time-bar.js"></script>
+
+    <script>
+      function extend() {
+        var target = {};
+        for (var i = 0; i < arguments.length; i++) {
+          var source = arguments[i];
+          for (var key in source) {
+            if (source.hasOwnProperty(key)) {
+              target[key] = source[key];
+            }
+          }
+        }
+        return target;
+      }
+
+	  function isLight(color) {
+		let hex = color.replace('#', '');
+
+		// convert #fff => #ffffff
+		if(hex.length == 3){
+			hex = `${hex[0]}${hex[0]}${hex[1]}${hex[1]}${hex[2]}${hex[2]}`;
+		}
+
+		const c_r = parseInt(hex.substr(0, 2), 16);
+		const c_g = parseInt(hex.substr(2, 2), 16);
+		const c_b = parseInt(hex.substr(4, 2), 16);
+		const brightness = ((c_r * 299) + (c_g * 587) + (c_b * 114)) / 1000;
+		return brightness > 155;
+	}
+
+	var bgColor = getComputedStyle(document.documentElement).getPropertyValue('--r-background-color').trim();
+	var isLight = isLight(bgColor);
+
+	if(isLight){
+		document.body.classList.add('has-light-background');
+	} else {
+		document.body.classList.add('has-dark-background');
+	}
+
+      // default options to init reveal.js
+      var defaultOptions = {
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        transition: 'default', // none/fade/slide/convex/concave/zoom
+        plugins: [
+          RevealMarkdown,
+          RevealHighlight,
+          RevealZoom,
+          RevealNotes,
+          RevealMath.MathJax3,
+		  RevealMermaid,
+		  RevealChart,
+		  RevealCustomControls,
+		  RevealMenu,
+		  RevealChalkboard, 
+		  ElapsedTimeBar
+        ],
+
+
+    	allottedTime: 120 * 1000,
+
+		mathjax3: {
+			mathjax: 'plugin/math/mathjax/tex-mml-chtml.js',
+		},
+		markdown: {
+		  gfm: true,
+		  mangle: true,
+		  pedantic: false,
+		  smartLists: false,
+		  smartypants: false,
+		},
+
+		mermaid: {
+			theme: isLight ? 'default' : 'dark',
+		},
+
+		customcontrols: {
+			controls: [
+				{id: 'toggle-overview',
+				title: 'Toggle overview (O)',
+				icon: '<i class="fa fa-th"></i>',
+				action: 'Reveal.toggleOverview();'
+				},
+				{ icon: '<i class="fa fa-pen-square"></i>',
+				title: 'Toggle chalkboard (B)',
+				action: 'RevealChalkboard.toggleChalkboard();'
+				},
+				{ icon: '<i class="fa fa-pen"></i>',
+				title: 'Toggle notes canvas (C)',
+				action: 'RevealChalkboard.toggleNotesCanvas();'
+				},
+			]
+		},
+		menu: {
+			loadIcons: false
+		}
+      };
+
+      // options from URL query string
+      var queryOptions = Reveal().getQueryHash() || {};
+
+      var options = extend(defaultOptions, {"width":960,"height":700,"margin":0.04,"controls":true,"progress":true,"slideNumber":true,"transition":"slide","transitionSpeed":"slow"}, queryOptions);
+    </script>
+
+    <script>
+      Reveal.initialize(options);
+    </script>
+  </body>
+
+  <!-- created with Advanced Slides -->
+</html>
