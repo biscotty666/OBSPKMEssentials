@@ -4,24 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "60b26731f3e841cd",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "895c93b5389cd92f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Chapters/1. Introduction to PKM and Obsidian.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "7d19b12a5aca279e",
         "type": "tabs",
         "children": [
@@ -32,8 +14,21 @@
               "type": "reveal-preview-view",
               "state": {}
             }
+          },
+          {
+            "id": "3b0bbb2b334eb6cf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -99,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Chapters/1. Introduction to PKM and Obsidian.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Chapters/1. Introduction to PKM and Obsidian.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Chapters/1. Introduction to PKM and Obsidian.md"
+                "file": "README.md"
               }
             }
           }
@@ -161,10 +156,12 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "895c93b5389cd92f",
+  "active": "3b0bbb2b334eb6cf",
   "lastOpenFiles": [
-    "Obsidian PKM Essentials Outline.md",
+    "README.md",
+    "html/1. Introduction to PKM and Obsidian/plugin/chalkboard/README.md",
     "Chapters/1. Introduction to PKM and Obsidian.md",
+    "Obsidian PKM Essentials Outline.md",
     "Assignments/Chapter 1.md",
     "Submissions/Chapter 1",
     "Submissions",
@@ -174,7 +171,6 @@
     "html/1. Introduction to PKM and Obsidian/Slides/Personal Knowledge Management/Extras",
     "html/1. Introduction to PKM and Obsidian/Slides/Personal Knowledge Management",
     "html/1. Introduction to PKM and Obsidian/Slides",
-    "html/1. Introduction to PKM and Obsidian/plugin/chalkboard/README.md",
     "html/1. Introduction to PKM and Obsidian/plugin/chalkboard/_style.css",
     "html/1. Introduction to PKM and Obsidian/plugin/chalkboard/img/blackboard.png",
     "html/1. Introduction to PKM and Obsidian/plugin/chalkboard/img/boardmarker-black.png",
