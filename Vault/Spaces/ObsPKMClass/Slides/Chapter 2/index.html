@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <title></title>
+    <link rel="stylesheet" href="dist/reveal.css" />
+    <link rel="stylesheet" href="dist/theme/ObsPKM.css" id="theme" />
+    <link rel="stylesheet" href="plugin/highlight/zenburn.css" />
+	<link rel="stylesheet" href="css/layout.css" />
+	<link rel="stylesheet" href="plugin/customcontrols/style.css">
+	<link rel="stylesheet" href="plugin/chalkboard/style.css">
+
+
+
+    <script defer src="dist/fontawesome/all.min.js"></script>
+
+	<script type="text/javascript">
+		var forgetPop = true;
+		function onPopState(event) {
+			if(forgetPop){
+				forgetPop = false;
+			} else {
+				parent.postMessage(event.target.location.href, "app://obsidian.md");
+			}
+        }
+		window.onpopstate = onPopState;
+		window.onmessage = event => {
+			if(event.data == "reload"){
+				window.document.location.reload();
+			}
+			forgetPop = true;
+		}
+
+		function fitElements(){
+			const itemsToFit = document.getElementsByClassName('fitText');
+			for (const item in itemsToFit) {
+				if (Object.hasOwnProperty.call(itemsToFit, item)) {
+					var element = itemsToFit[item];
+					fitElement(element,1, 1000);
+					element.classList.remove('fitText');
+				}
+			}
+		}
+
+		function fitElement(element, start, end){
+
+			let size = (end + start) / 2;
+			element.style.fontSize = `${size}px`;
+
+			if(Math.abs(start - end) < 1){
+				while(element.scrollHeight > element.offsetHeight){
+					size--;
+					element.style.fontSize = `${size}px`;
+				}
+				return;
+			}
+
+			if(element.scrollHeight > element.offsetHeight){
+				fitElement(element, start, size);
+			} else {
+				fitElement(element, size, end);
+			}		
+		}
+
+
+		document.onreadystatechange = () => {
+			fitElements();
+			if (document.readyState === 'complete') {
+				if (window.location.href.indexOf("?export") != -1){
+					parent.postMessage(event.target.location.href, "app://obsidian.md");
+				}
+				if (window.location.href.indexOf("print-pdf") != -1){
+					let stateCheck = setInterval(() => {
+						clearInterval(stateCheck);
+						window.print();
+					}, 250);
+				}
+			}
+	};
+
+
+        </script>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides"><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### Obsidian / PKM
+
+### Essentials
+
+1. Introduction to Obsidian and PKM 
+2. Zettelkasten <!-- .element: style="color: red" -->
+3. Obsidian
+4. Putting it together (Videos)
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### Zettelkasten
+
+<div class="callout callout-color2">
+<div class="callout-title">
+<div class="callout-icon">
+
+<i class="fas fa-fire-alt" ></i>
+
+
+</div>
+<div class="callout-title-inner">
+
+Wikipedia
+
+</div>
+</div>
+<div class="callout-content">
+
+A **_Zettelkasten_** (German: "slip box", plural **_Zettelkästen_**) or **card file** consists of small items of information stored on paper slips or cards that may be linked to each other through [subject headings](https://en.m.wikipedia.org/wiki/Index_term "Index term") or other [metadata](https://en.m.wikipedia.org/wiki/Metadata "Metadata") such as numbers and [tags](https://en.m.wikipedia.org/wiki/Tag_(metadata) "Tag (metadata)")
+
+</div>
+</div>
+<!-- .element: style="width: 95%" -->
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### Zettelkasten Users
+
+<div class="callout callout-color2">
+<div class="callout-title">
+<div class="callout-icon">
+
+<i class="fas fa-fire-alt" ></i>
+
+
+</div>
+<div class="callout-title-inner">
+
+Shannon Mattern
+
+</div>
+</div>
+<div class="callout-content">
+
+Over the decades, cards put to personal use have provided aesthetic and intellectual inspiration to myriad artists, writers, and designers."
+
+</div>
+</div>
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### Zettelkasten Origins <!-- .element: style="margin-bottom: 0.5em" -->
+
+- Earliest examples from 16th century
+- Became common among European scholars in the 19th century <!-- .element: class="fragment" -->
+- Famously used by Carl Linnaeus in developing the modern system of biological taxonomy <!-- .element: class="fragment" -->
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### A  17`$^{th}$` century example
+
+<img src="Extras/Images/Pasted image 20230516232109.jpg" alt="" style="width: 750px; object-fit: fill">
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: style="padding: 2em" class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### `$20^{th}$` century
+
+- Little used in the US until the `$20^{th}$` century
+- Scholars still kept notes in books, or slips pasted in books <!-- .element: class="fragment" -->
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### Niklas Luhmann
+
+- Mid-20`$^{th}$` century social scientist
+- Wrote more than 70 books and 400 articles  <!-- .element: class="fragment" -->
+- Had more than 90,000 index cards   <!-- .element: class="fragment" -->
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### A  20`$^{th}$` century example
+
+<img src="Extras/Images/Pasted image 20230516232314.jpg" alt="" style="width: 750px; object-fit: fill">
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### The computer age
+
+Information stored digitally allows for greater volume and quicker retrieval
+
+<div class="block">
+
+<!-- .element: class="fragment" -->
+<span class="my-emph">**However**</span> 
+</div>
+
+
+Note-taking practices in the US did not change. So quicker...   <!-- .element: class="fragment" -->
+
+but not that much quicker.   <!-- .element: class="fragment" -->
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### The computer age
+
+Many students take notes by making a file for each class, or section, or chapter. This is like annotating books. And the more information, the more files to look through to find what you want.
+
+<div class="block">
+
+<!-- .element: class="fragment" -->
+<span class="my-emph">*We need a change of paradigm*</span>
+</div>
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### Zettelkasten to the rescue
+
+Book/notebook style note-taking is inherently inefficient!
+
+And the more information, the slower the retrieval. <!-- .element: class="fragment" --> 
+
+We need to apply the principles of Zettelkasten using powerful tools such as <!-- .element: class="fragment" --> 
+
+<div class="block">
+
+<!-- .element: class="fragment" -->
+<span class="obs-emph">**Obsidian**</span> 
+</div>
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### Enter <span class="obs-emph-normal" style="margin-bottom:0.5em;">Obsidian</span>
+
+Software like <span class="obs-emph-normal">Obsidian</span> has been developed that allows us to truly implement a zettelkasten system with
+
+1. Flexible use of metadata  <!-- .element: class="fragment" --> 
+2. Rich method for cross referencing data <!-- .element: class="fragment" --> 
+3. Ease of incorporating non-textual elements <!-- .element: class="fragment" --> 
+4. Ease of creating references and footnotes <!-- .element: class="fragment" -->
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### Enter <span class="obs-emph-normal">Obsidian</span>
+
+5. Powerful search function to ensure that nothing gets lost
+6. Your actual notes and all of your data are stored in text files and other non proprietary formats so they can be used independently of obsidian  <!-- .element: class="fragment" --> 
+7. Follows the principal that your data is your own to do what you want with  <!-- .element: class="fragment" --> 
+8. It's free  <!-- .element: class="fragment" -->
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### No laughing matter
+
+Not convinced yet? Other famous zettelkasteners include:
+
+- George Carlin <!-- .element: class="fragment" -->
+- Phyllis Diller <!-- .element: style="margin-top: -0.25em" class="fragment" -->
+- Joan Rivers <!-- .element: style="margin-top: -0.25em" class="fragment" -->
+- Bob Hope <!-- .element: style="margin-top: -0.25em" class="fragment" -->
+
+Zettelers! 🤣  <!-- .element: style="margin-top: 0.5em" class="fragment fade-in-then-out" -->
+
+Sorry 😌 <!-- .element: style="margin-top: -1em" class="fragment" -->
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### Atomic notes
+
+1. Short ideas or pieces of information (atoms) <!-- .element: class="fragment" -->
+2. Think index card size <!-- .element: class="fragment" -->
+3. Self-contained and understandable without reference to other information <!-- .element: class="fragment" -->
+4. May change or evolve over time <!-- .element: class="fragment" -->
+5. Should contain metatdata <!-- .element: class="fragment" -->
+	- references (links to other notes) <!-- .element: style="margin-top: 0.5em" -->
+	- hierarchy (parent, sibling, next)
+	- tags (flexible)
+</div>
+
+<aside class="notes"><p>Making atomic notes become part of the learning process. It forces you to clarify your understanding of every point.</p>
+<p>Working with Zettelkasten forces/nudges you to think about your thinking.</p>
+<p>You may return to your notes when you gain more information or insight relating to the topic. </p>
+<p>You may want to add metatdata.</p>
+<p>Don&#39;t get too obsessed with the size. Just keep in mind that broad topics are for other types of notes (mocs or production notes)</p>
+</aside></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### Fleeting notes
+
+For quickly capturing
+- Undeveloped ideas  <!-- .element: class="fragment" -->
+- Interesting information you encounter <!-- .element: class="fragment" -->
+<br ></br>
+
+Before you forget them 😉 <!-- .element: class="fragment" -->
+
+Fleeting notes will evolve into permanent notes or be discarded.  <!-- .element: class="fragment" -->
+</div>
+
+<aside class="notes"><p>Immediacy is important so that you can get back to ideas and information and not forget about them</p>
+<p>There is no harm keeping them around though so don&#39;t be quick to discard. Maybe you should come back to it later. You could even note how many times you had looked at the note with metadata.</p>
+<p>You are encouraged not to return immediately to your fleeting notes. It&#39;s often better to return to them later.</p>
+</aside></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### Permanent notes
+
+Two types:
+
+1. Literature notes
+2. Your ideas, observations, etc.
+
+After you've processed a fleeting note to ensure that it is atomic and has the appropriate metadata, then <!-- .element: class="fragment" -->
+
+<div class="block">
+
+<!-- .element: class="fragment" -->
+<span class="my-emph">File it...</span><span class="obs-emph-normal"> *it's a permanent note*.</span>
+</div>
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### Map of content (MOC)
+
+As you accumulate notes around a given topic, you can create MOCs for the subject.   <!-- .element: style="margin-top: 0.5em" -->
+
+MOCs are not atomic. They are "guides" through the information you have in your vault.  <!-- .element: style="margin-top: 0.5em" class="fragment fade-in-then-out" -->
+
+They begin as an annotated table of contents or index.   <!-- .element: style="margin-top: -1.5em" class="fragment fade-in-then-out" -->
+
+Over time you can develop a narrative around all of these notes.   <!-- .element: style="margin-top: -1.2em" class="fragment fade-in-then-out" -->
+
+Eventually some will become rich enough to become a Production Note.   <!-- .element: style="margin-top: -1.2em" class="fragment fade-in-then-out" -->
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### Production Notes
+
+I find it useful to distinguish an additional type of note. <!-- .element: class="fragment fade-out" -->
+
+Production notes are <!-- .element: style="margin-top: -1.5em" class="fragment fade-in" -->
+
+- Longer documents which develop or expose your ideas drawing on notes in your vault  <!-- .element: style="margin-top: 0.25em" class="fragment" -->
+- They incorporate non-textual elements such as images, drawings, graphs, charts, dataqueries, etc.  <!-- .element: class="fragment" -->
+- Form the basis for published articles, essays, books, videos, etc  <!-- .element: class="fragment" -->
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### Daily Notes
+
+These are not traditional zettelkasten notes. <!-- .element: style="margin-top: -0.5em" class="fragment fade-out" -->
+
+Daily notes provide a place to <!-- .element: style="margin-top: -1.5em" class="fragment" -->
+
+- Organize your work  <!-- .element: class="fragment" -->
+- Reflect on your day and your work  <!-- .element: class="fragment" -->
+- Set goals  <!-- .element: class="fragment" -->
+- Document your work  <!-- .element: class="fragment" -->
+- Make log entries  <!-- .element: class="fragment" -->
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### Up next <!-- .element: style="margin: 0.25em" -->
+
+1. Introduction to Obsidian and PKM
+2. Zettelkasten 
+3. Obsidian  <!-- .element: style="color: red" -->
+4. Putting it together (Videos)
+<br ></br>
+This presentation can be downloaded from [my GitHub repository](https://github.com/biscotty666/BB2).
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+<style>
+	li{
+		padding-bottom: 0.3em;
+	}
+	h1, h2, h3, h4 {
+		padding-bottom: 0.5em;
+	}
+	.my-emph {
+		color: #c9582a;
+	}
+	.obs-emph {
+		color: #5f5ea9;
+		font-size: 72px;
+	}
+	.obs-emph-normal {
+		color: #5f5ea9;
+	}
+		.access {
+		color: #a4c229;
+	}
+</style>
+
+up:: Obsidian PKM Essentials Outline
+prev:: Chapter 1
+</div></script></section></div>
+    </div>
+
+    <script src="dist/reveal.js"></script>
+
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+    <script src="plugin/zoom/zoom.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/math/math.js"></script>
+	<script src="plugin/mermaid/mermaid.js"></script>
+	<script src="plugin/chart/chart.min.js"></script>
+	<script src="plugin/chart/plugin.js"></script>
+	<script src="plugin/menu/menu.js"></script>
+	<script src="plugin/customcontrols/plugin.js"></script>
+	<script src="plugin/chalkboard/plugin.js"></script>
+	<script src="plugin/elapsed-time-bar/elapsed-time-bar.js"></script>
+
+    <script>
+      function extend() {
+        var target = {};
+        for (var i = 0; i < arguments.length; i++) {
+          var source = arguments[i];
+          for (var key in source) {
+            if (source.hasOwnProperty(key)) {
+              target[key] = source[key];
+            }
+          }
+        }
+        return target;
+      }
+
+	  function isLight(color) {
+		let hex = color.replace('#', '');
+
+		// convert #fff => #ffffff
+		if(hex.length == 3){
+			hex = `${hex[0]}${hex[0]}${hex[1]}${hex[1]}${hex[2]}${hex[2]}`;
+		}
+
+		const c_r = parseInt(hex.substr(0, 2), 16);
+		const c_g = parseInt(hex.substr(2, 2), 16);
+		const c_b = parseInt(hex.substr(4, 2), 16);
+		const brightness = ((c_r * 299) + (c_g * 587) + (c_b * 114)) / 1000;
+		return brightness > 155;
+	}
+
+	var bgColor = getComputedStyle(document.documentElement).getPropertyValue('--r-background-color').trim();
+	var isLight = isLight(bgColor);
+
+	if(isLight){
+		document.body.classList.add('has-light-background');
+	} else {
+		document.body.classList.add('has-dark-background');
+	}
+
+      // default options to init reveal.js
+      var defaultOptions = {
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        transition: 'default', // none/fade/slide/convex/concave/zoom
+        plugins: [
+          RevealMarkdown,
+          RevealHighlight,
+          RevealZoom,
+          RevealNotes,
+          RevealMath.MathJax3,
+		  RevealMermaid,
+		  RevealChart,
+		  RevealCustomControls,
+		  RevealMenu,
+		  RevealChalkboard, 
+		  ElapsedTimeBar
+        ],
+
+
+    	allottedTime: 120 * 1000,
+
+		mathjax3: {
+			mathjax: 'plugin/math/mathjax/tex-mml-chtml.js',
+		},
+		markdown: {
+		  gfm: true,
+		  mangle: true,
+		  pedantic: false,
+		  smartLists: false,
+		  smartypants: false,
+		},
+
+		mermaid: {
+			theme: isLight ? 'default' : 'dark',
+		},
+
+		customcontrols: {
+			controls: [
+				{id: 'toggle-overview',
+				title: 'Toggle overview (O)',
+				icon: '<i class="fa fa-th"></i>',
+				action: 'Reveal.toggleOverview();'
+				},
+				{ icon: '<i class="fa fa-pen-square"></i>',
+				title: 'Toggle chalkboard (B)',
+				action: 'RevealChalkboard.toggleChalkboard();'
+				},
+				{ icon: '<i class="fa fa-pen"></i>',
+				title: 'Toggle notes canvas (C)',
+				action: 'RevealChalkboard.toggleNotesCanvas();'
+				},
+			]
+		},
+		menu: {
+			loadIcons: false
+		}
+      };
+
+      // options from URL query string
+      var queryOptions = Reveal().getQueryHash() || {};
+
+      var options = extend(defaultOptions, {"width":960,"height":700,"margin":0.04,"controls":true,"progress":true,"slideNumber":true,"transition":"slide","transitionSpeed":"slow"}, queryOptions);
+    </script>
+
+    <script>
+      Reveal.initialize(options);
+    </script>
+  </body>
+
+  <!-- created with Advanced Slides -->
+</html>
