@@ -8,8 +8,7 @@ cssclass: "qs"
 - tags:  topic, source, type, etc.
 
 ---
-up:: [[Introduction to Zettelkasten]]
+up:: [[1.2 Zettelkasten in Detail]]
 tags:: #on/PKM, #note/product, #effort/ObsPKMClass, #note/reference #on/Obsidian 
 prev:: [[Atomic Notes]]
 next:: [[Obsidian vaults|Vaults]]
-X:: [[Metadata]]

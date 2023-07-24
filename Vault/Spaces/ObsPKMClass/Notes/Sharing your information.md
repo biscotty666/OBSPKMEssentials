@@ -11,8 +11,8 @@ There are many ways you can share information from your vault.
 And even better, [[Create something]]
 
 ---
-up:: [[Introduction to Zettelkasten]]
+up:: [[1.2 Zettelkasten in Detail]]
 tags:: #on/PKM, #note/product, #effort/ObsPKMClass, #note/reference #on/Obsidian 
 prev:: [[Storage for life]]
-next:: [[Create something]]
+next:: [[2.0 Obsidian Intro]]
 

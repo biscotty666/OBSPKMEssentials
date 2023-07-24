@@ -55,3 +55,11 @@ where species = [[Rufous Hummingbird]]
 
 [[Rufous Hummingbird Identification, All About Birds, Cornell Lab of Ornithology]]
 [Rufous hummingbird - Wikipedia](https://en.wikipedia.org/wiki/Rufous_hummingbird)
+
+
+---
+up:: [[3.3 Observation Log with Dataview]]
+tags:: #on/Obsidian #on/PKM  #note/product #effort/ObsPKMClass 
+prev:: [[Yard Observations|Yard Activity]]
+next:: [[Daily Notes in Obsidian - Basic]]
+

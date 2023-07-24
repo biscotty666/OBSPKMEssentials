@@ -53,7 +53,7 @@ tR += "![[" + [[yesterday]] + "]]"
 
 ## Backmatter
 
-up:: [[Daily Notes in Obsidian - Basic]]
+up:: [[3.4 Daily Note]]
 tags:: #on/Obsidian, #on/PKM, #note/product, #effort/ObsPKMClass, #note/reference
-prev:: 
-next:: 
+prev:: [[Daily Notes in Obsidian - Basic]]
+next:: [[Daily Note Template Instructions]]

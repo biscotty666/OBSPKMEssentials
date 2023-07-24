@@ -1,42 +1,112 @@
 {
   "main": {
-    "id": "3cff702f4ff6faae",
+    "id": "c4f7fdb608baf8e1",
     "type": "split",
     "children": [
       {
-        "id": "a96d7f3c72ba2df4",
+        "id": "94c009cd008dc68b",
         "type": "tabs",
         "children": [
           {
-            "id": "70eb4927bb645a4f",
+            "id": "c78bbbfeb34c3421",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "canvas",
               "state": {
                 "file": "Spaces/ObsPKMClass/Notes/OPKMEssentials.canvas",
                 "viewState": {
-                  "x": 277.57290975290243,
-                  "y": -1760.3538359201789,
-                  "zoom": -0.8921848131290372
+                  "x": 1925.0711411057869,
+                  "y": 241.2074773801002,
+                  "zoom": 0.3999999999999999
                 }
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "3fd7878ec327e076",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Calendar/Logs/Exc-20230721.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b410acdf38e9a36e",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Atlas/Technology.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "6185031c52c6351d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Spaces/ObsPKMClass/Notes/Headers.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "690e1fc095f13cc9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Spaces/ObsPKMClass/Notes/Templater.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5ddb7fcdcf7cf594",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Spaces/ObsPKMClass/Notes/Potential Fonts for ObsPKM Class.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "51a1be731b03b8be",
+    "id": "440b3841429709ed",
     "type": "split",
     "children": [
       {
-        "id": "7a091ae1c0a35824",
+        "id": "b208c03cadd231ee",
         "type": "tabs",
         "children": [
           {
-            "id": "29c167da8641eefc",
+            "id": "dddbab8b18fd423a",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -46,50 +116,149 @@
             }
           },
           {
-            "id": "76cfc1b2b5036ed7",
+            "id": "77966b04a7f238ed",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "systemd",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
             }
           },
           {
-            "id": "1ef33a7cfd379a64",
+            "id": "61f4306fa543a4e1",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
               "state": {}
             }
+          },
+          {
+            "id": "7aeabb5c3e16bb99",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-tab-tree",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 330.51103591918945,
+    "collapsed": true
   },
   "right": {
-    "id": "45ca666ba9270a10",
+    "id": "7a43a6c530e72e44",
     "type": "split",
     "children": [
       {
-        "id": "17cfe90060ac2ef6",
+        "id": "ea89fdbc5439f479",
         "type": "tabs",
+        "dimension": 54.373024236037935,
         "children": [
           {
-            "id": "f58200ec97821705",
+            "id": "4f6e4ddebde66a86",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "alphabetical",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "4fd5ddab0d74cf4f",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "Spaces/ObsPKMClass/Notes/Potential Fonts for ObsPKM Class.md",
+                "options": {
+                  "collapse-filter": false,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": false,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": false,
+                  "colorGroups": [],
+                  "collapse-display": false,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": false,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.6795684961800872,
+                  "close": true
+                }
+              }
+            }
+          },
+          {
+            "id": "90d026528dc7103b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Spaces/ObsPKMClass/Notes/Potential Fonts for ObsPKM Class.md"
+              }
+            }
+          },
+          {
+            "id": "d9d2e6a1c770753b",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "a6092d768a4de5fb",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "f50ea5aecf9f2a62",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "cc261747cbab30f2",
+        "type": "tabs",
+        "dimension": 45.626975763962065,
+        "children": [
+          {
+            "id": "d535bd36dbc98e0b",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spaces/ObsPKMClass/Notes/OPKMEssentials.canvas",
-                "collapseAll": false,
+                "file": "Spaces/ObsPKMClass/Notes/Potential Fonts for ObsPKM Class.md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -100,55 +269,95 @@
             }
           },
           {
-            "id": "aeab4e87607ad44f",
+            "id": "ae0aed29d208c352",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spaces/ObsPKMClass/Notes/OPKMEssentials.canvas",
+                "file": "Spaces/ObsPKMClass/Notes/Potential Fonts for ObsPKM Class.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
-          },
-          {
-            "id": "89adf9b74617333a",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              }
-            }
-          },
-          {
-            "id": "a95ab28f8058153f",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Spaces/ObsPKMClass/Notes/OPKMEssentials.canvas"
-              }
-            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 431.5
   },
   "left-ribbon": {
     "hiddenItems": {
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "workspaces:Manage workspace layouts": false,
+      "markdown-importer:Open format converter": false,
+      "templater-obsidian:Templater": false,
+      "webpage-html-export:Export Vault to HTML": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "periodic-notes:Open today": false
     }
   },
-  "active": "70eb4927bb645a4f",
-  "lastOpenFiles": []
+  "active": "5ddb7fcdcf7cf594",
+  "lastOpenFiles": [
+    "Spaces/ObsPKMClass/Notes/Templater.md",
+    "test note.md",
+    "Spaces/ObsPKMClass/Notes/Headers.md",
+    "Spaces/ObsPKMClass/Notes/OPKMEssentials.canvas",
+    "Atlas/Technology.md",
+    "Spaces/ObsPKMClass/Notes/Potential Fonts for ObsPKM Class.md",
+    "nix tutorial.md",
+    "Extras/Web Pages/Nix language basics — nix.dev documentation.md",
+    "Extras/Templates/Video Project.md",
+    "Publication Ideas.md",
+    "Cards/Systemd Timers for Scheduling Tasks - Fedora Magazine.md",
+    "NixOS, Kinoite and Debian.md",
+    "Infrastructure.md",
+    "+/Scheduling Jobs in Kinoite.md",
+    "+/temp note.md",
+    "Calendar/Logs/Exc-20230722.md",
+    "Exc-20230722.md",
+    "Spaces/ObsPKMClass/Notes/Dataview FROM.md",
+    "Extras/Templates/+ New.md",
+    "Extras/Templates/Daily Note Simple.md",
+    "Extras/Templates/DaviesMedia.md",
+    "Spaces/ObsPKMClass/Notes/Obsidian PKM Essentials Outline.md",
+    "Spaces/ObsPKMClass/Notes/Introduction to Obsidian.md",
+    "Spaces/ObsPKMClass/Notes/Obsidian Markdown.md",
+    "Atlas/Markdown.md",
+    "Atlas/Obsidian.md",
+    "Extras/Images/Screenshot_20230717_021912.jpg",
+    "Extras/Images/DirtBiker.jpg",
+    "Spaces/ObsPKMClass/Resources/Backlinks.png",
+    "Spaces/ObsPKMClass/Resources/Footnotes.png",
+    "Spaces/ObsPKMClass/Resources/Blockquote and Callouts.png",
+    "Spaces/ObsPKMClass/Resources/Lists.png",
+    "Spaces/ObsPKMClass/Resources/Headers.png",
+    "Spaces/ObsPKMClass/Notes/OPKMEssentials.sync-conflict-20230701-033216-PJXCWFG.canvas",
+    "Trunks-fractal-trace-fire.png",
+    "IMG_20230531_103738201.jpg",
+    "IMG_20230425_065348908.jpg",
+    "2 Rivers.xcf",
+    "Color Palette Options.pdf",
+    "Spaces/Blog/Notes/src/routes/rss.xml",
+    "Spaces/Blog/Notes/lib",
+    "Spaces/Blog/Notes/src/lib/components/custom",
+    "Spaces/Blog/Notes/src/lib/components",
+    "Spaces/Blog/Notes/src/routes/slug",
+    "Spaces/Blog/Notes/routes",
+    "Spaces/Blog/Notes/src/routes/api/posts",
+    "Spaces/Blog/Notes/src/routes/api",
+    "Extras/Canvases/New one.canvas",
+    "Extras/Canvases/Untitled 1.canvas",
+    "Extras/Canvases/Untitled 1.excalidraw.canvas",
+    "Extras/Canvases/Untitled.canvas",
+    "Extras/Canvases/Obsidian Proverbs.canvas",
+    "Extras/Canvases/OPCourseIntro.canvas",
+    "Extras/Canvases/Obsidian and PKM Class Overview.canvas",
+    "Extras/Canvases/What is Obsidian?.canvas"
+  ]
 }

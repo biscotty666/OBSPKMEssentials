@@ -10,7 +10,7 @@ cssclass: "qs"
 - Backing up and copying notes or vaults are simple file operations
 
 ---
-up:: [[Introduction to Zettelkasten]]
+up:: [[1.2 Zettelkasten in Detail]]
 tags:: #on/PKM, #note/product, #effort/ObsPKMClass, #note/reference #on/Obsidian 
-[prev:: [[Obsidian Metadata]]]
-[next:: [[Storage for life]]]
+prev:: [[Obsidian Metadata]]
+next:: [[Storage for life]]

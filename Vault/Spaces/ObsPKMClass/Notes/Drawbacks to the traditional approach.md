@@ -9,7 +9,7 @@ This still makes it difficult to quickly retrieve specific information and to ea
 And the more notes you have the bigger the problem.
 
 ---
-up:: [[Introduction to PKM]]
+up:: [[1.0 Personal Knowledge Management]]
 prev:: [[Traditional approaches to note-taking|Traditional Note-taking]]
 next:: [[Index Cards]]
 tags:: #on/PKM, #note/product, #effort/ObsPKMClass

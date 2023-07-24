@@ -1,0 +1,72 @@
+{
+  "collapse-filter": false,
+  "search": "technology",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": false,
+  "collapse-color-groups": true,
+  "colorGroups": [
+    {
+      "query": "#map",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    },
+    {
+      "query": "Obsidian",
+      "color": {
+        "a": 1,
+        "rgb": 659931
+      }
+    },
+    {
+      "query": "Probability",
+      "color": {
+        "a": 1,
+        "rgb": 11657298
+      }
+    },
+    {
+      "query": "Statistics",
+      "color": {
+        "a": 1,
+        "rgb": 5431378
+      }
+    },
+    {
+      "query": "Svelte",
+      "color": {
+        "a": 1,
+        "rgb": 14701207
+      }
+    },
+    {
+      "query": "inkscape OR gimp",
+      "color": {
+        "a": 1,
+        "rgb": 16242440
+      }
+    },
+    {
+      "query": "#log",
+      "color": {
+        "a": 1,
+        "rgb": 5395168
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": false,
+  "textFadeMultiplier": -1.1,
+  "nodeSizeMultiplier": 0.9421875,
+  "lineSizeMultiplier": 0.1,
+  "collapse-forces": false,
+  "centerStrength": 0.453125,
+  "repelStrength": 8.22916666666667,
+  "linkStrength": 0.369791666666667,
+  "linkDistance": 118,
+  "scale": 0.46822130772748,
+  "close": true
+}

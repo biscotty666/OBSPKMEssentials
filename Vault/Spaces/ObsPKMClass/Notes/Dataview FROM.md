@@ -57,7 +57,7 @@ FROM "Spaces/ObsPKMClass" AND -"Spaces/ObsPKMClass/Chapters"
 LIMIT 5
 ```
 ---
-up:: [[Zettelkasten Implementation in Obsidian|Implementation]]
+up:: [[3.1 Dataview]]
 tags:: #note/product #effort/ObsPKMClass, #note/reference #on/Obsidian #on/PKM 
 prev:: [[Dataview Fields]]
-next:: 
+next:: [[Dataview WHERE]]

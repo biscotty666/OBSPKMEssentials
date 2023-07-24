@@ -1,0 +1,399 @@
+{
+  "main": {
+    "id": "c4f7fdb608baf8e1",
+    "type": "split",
+    "children": [
+      {
+        "id": "2c73369e1b6db845",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6210aacf3da04456",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Calendar/Daily Notes/Notes/2023-06-28.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "0b37b7955af7fdd2",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Spaces/ObsPKMClass/Keeping logs with Dataview.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "bd5ac33ed449fb32",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Extras/Templates/Observation - Yard.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "2a1358bc885c75f0",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "+ New/Yard Observations.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "0f98676a4e97b621",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sources/Rufous Hummingbird.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "0bb03b7dab7f3c8d",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Spaces/ObsPKMClass/Notes/OPKMEssentials.canvas",
+                "viewState": {
+                  "x": 23086.18077171864,
+                  "y": -65.51558205382912,
+                  "zoom": -2.4000000000000004
+                }
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "3d10023ac3aa3557",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "+ New/LVM Guide.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "716e9050e23771c7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Extras/Web Pages/Manage Packages on Fedora Silverblue with Toolbox, rpm-ostree & Flatpak - ComputingForGeeks.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 7
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "440b3841429709ed",
+    "type": "split",
+    "children": [
+      {
+        "id": "b208c03cadd231ee",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dddbab8b18fd423a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "77966b04a7f238ed",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "drag and drop",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "61f4306fa543a4e1",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "735ee7d98d4844de",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-tab-tree",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 262.5086555480957
+  },
+  "right": {
+    "id": "7a43a6c530e72e44",
+    "type": "split",
+    "children": [
+      {
+        "id": "ea89fdbc5439f479",
+        "type": "tabs",
+        "dimension": 70.79107505070994,
+        "children": [
+          {
+            "id": "4f6e4ddebde66a86",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "alphabetical",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "4fd5ddab0d74cf4f",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "Extras/Web Pages/Manage Packages on Fedora Silverblue with Toolbox, rpm-ostree & Flatpak - ComputingForGeeks.md",
+                "options": {
+                  "collapse-filter": false,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": false,
+                  "colorGroups": [],
+                  "collapse-display": false,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": false,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.6795684961800876,
+                  "close": true
+                }
+              }
+            }
+          },
+          {
+            "id": "90d026528dc7103b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Extras/Web Pages/Manage Packages on Fedora Silverblue with Toolbox, rpm-ostree & Flatpak - ComputingForGeeks.md"
+              }
+            }
+          },
+          {
+            "id": "d9d2e6a1c770753b",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "a6092d768a4de5fb",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "5562a11e988a5742",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "cc261747cbab30f2",
+        "type": "tabs",
+        "dimension": 29.20892494929006,
+        "children": [
+          {
+            "id": "d535bd36dbc98e0b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Extras/Web Pages/Manage Packages on Fedora Silverblue with Toolbox, rpm-ostree & Flatpak - ComputingForGeeks.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ae0aed29d208c352",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Extras/Web Pages/Manage Packages on Fedora Silverblue with Toolbox, rpm-ostree & Flatpak - ComputingForGeeks.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 532.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "workspaces:Manage workspace layouts": false,
+      "markdown-importer:Open format converter": false,
+      "templater-obsidian:Templater": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "webpage-html-export:Export Vault to HTML": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "periodic-notes:Open today": false
+    }
+  },
+  "active": "716e9050e23771c7",
+  "lastOpenFiles": [
+    "Extras/Web Pages/Manage Packages on Fedora Silverblue with Toolbox, rpm-ostree & Flatpak - ComputingForGeeks.md",
+    "+ New/LVM Guide.md",
+    "+ New/Untitled 4.md",
+    "Calendar/Logs/Exc-20230630.md",
+    "+ New/Exc-20230630.md",
+    "Calendar/Daily Notes/Notes/2023-06-28.md",
+    "+ New/Sveltekit authentication with cookies.md",
+    "+ New/Basic Task Management.md",
+    "Spaces/ObsPKMClass/Notes/OPKMEssentials.canvas",
+    "Calendar/Daily Notes/Notes/2023-06-27.md",
+    "Spaces/ObsPKMClass/Keeping logs with Dataview.md",
+    "Sources/Rufous Hummingbird.md",
+    "+ New/Yard Observations.md",
+    "Extras/Templates/Observation - Yard.md",
+    "Sources/Color palettes.md",
+    "Calendar/Daily Notes/Notes/2023-04/2023-04-02.md",
+    "Atlas/Obsidian.md",
+    "Spaces/Blog/Svelte markdown blog.md",
+    "Spaces/Blog/Notes/src/routes/rss.xml/+server.ts.md",
+    "Spaces/Blog/Notes/src/routes/+layout.ts.md",
+    "Spaces/Blog/Notes/src/app.html.md",
+    "Spaces/Blog/Notes/src/+error.svelte.md",
+    "Spaces/Blog/Notes/src/routes/rss.xml",
+    "Spaces/Blog/Notes/src/routes/+layout.svelte.md",
+    "Spaces/Blog/Notes/src/routes/transition.svelte.md",
+    "Spaces/Blog/Notes/src/routes/header.svelte.md",
+    "Spaces/Blog/Notes/src/toggle.svelte.md",
+    "Spaces/Blog/Notes/lib/theme.ts.md",
+    "Spaces/Blog/Notes/lib",
+    "Spaces/Blog/Notes/src/lib/components/custom",
+    "Spaces/Blog/Notes/src/lib/components",
+    "Spaces/Blog/Notes/src/routes/slug",
+    "Spaces/Blog/Notes/routes",
+    "Spaces/Blog/Notes/src/routes/api/posts",
+    "Spaces/Blog/Notes/src/routes/api",
+    "Spaces/Blog/Notes/src/posts",
+    "Spaces/Blog/Noes/src",
+    "Extras/Images/IMG_20230625_100943318.jpg",
+    "Extras/Images/Interlocking-Rings.svg",
+    "Extras/Images/Interlocking-Rings.png",
+    "Extras/Images/Pasted image 20230624045342.jpg",
+    "Extras/Images/Pasted image 20230624043905.png",
+    "Extras/Images/Pasted image 20230624043529.png",
+    "Extras/Images/HB4 4.jpg",
+    "Extras/Images/HB4 3.jpg",
+    "Extras/Images/HB4 2.jpg",
+    "Extras/Images/HB4 1.jpg",
+    "Extras/Canvases/New one.canvas",
+    "Extras/Canvases/Untitled 1.canvas",
+    "Extras/Canvases/Untitled 1.excalidraw.canvas",
+    "Extras/Canvases/Untitled.canvas",
+    "Extras/Canvases/Obsidian Proverbs.canvas",
+    "Extras/Canvases/OPCourseIntro.canvas",
+    "Extras/Canvases/Obsidian and PKM Class Overview.canvas",
+    "Extras/Canvases/What is Obsidian?.canvas",
+    "Obsidian/Test.canvas"
+  ]
+}

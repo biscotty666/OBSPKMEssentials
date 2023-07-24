@@ -50,8 +50,9 @@ Each new line describes an `AND` operator. All standard boolean operators are re
 %%
 
 ---
-up:: [[ObsPKMEssentials]]
+up:: [[Obsidian PKM Essentials Outline|ObsPKMEssentials]]
 tags:: #on/Obsidian #on/PKM  #note/product #effort/ObsPKMClass 
 prev:: 
 next:: 
+X:: [[Obsidian]]
 %%

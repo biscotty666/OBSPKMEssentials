@@ -15,7 +15,7 @@ We need a change of paradigm.
 And a tool to implement it!
 
 ---
-up:: [[Introduction to Zettelkasten]]
+up:: [[1.1 Zettelkasten - Overview]]
 tags:: #on/PKM , #note/product , #effort/ObsPKMClass 
 prev:: [[Zettelkasten History]]
 next:: [[Niklas Luhmann]]

@@ -24,7 +24,8 @@ SORT file.cday desc
 LIMIT 7
 ```
 ---
-up:: [[Zettelkasten Implementation in Obsidian|Implementation]]
+up:: [[3.1 Dataview]]
 tags:: #note/product #effort/ObsPKMClass, #note/reference #on/Obsidian #on/PKM 
-prev:: [[Dataview Fields]]
-next:: 
+prev:: [[Dataview WHERE]]
+next:: [[Templater]]
+

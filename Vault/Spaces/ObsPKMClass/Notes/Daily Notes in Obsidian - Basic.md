@@ -21,7 +21,7 @@ Daily notes provide a central location to
 [[Daily note template]]
 
 ---
-up:: [[ObsPKMEssentials]]
+up:: [[3.4 Daily Note]]
 tags:: #on/Obsidian, #on/PKM, #note/product, #effort/ObsPKMClass, #note/reference
-prev:: 
-next:: 
+prev:: [[Rufous Hummingbird]]
+next:: [[Daily note template]]

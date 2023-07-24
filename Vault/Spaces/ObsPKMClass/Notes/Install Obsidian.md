@@ -11,7 +11,7 @@ Obsidian is available for Linux, Mac, Windows, Android, iPad and iPhone. It is f
 I recommend the flatpak which can be installed with `flatpak install flathub md.obsidian.Obsidian`.
 
 ---
-up:: [[Introduction to Obsidian]]
+up:: [[2.0 Obsidian Intro]]
 tags:: #note/product #effort/ObsPKMClass, #note/reference #on/Obsidian 
-prev:: [[Getting started with Obsidian]]
+prev:: [[Enter Obsidian]]
 next:: [[First Launch]]

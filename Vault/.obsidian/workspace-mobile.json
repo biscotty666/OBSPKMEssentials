@@ -1,0 +1,286 @@
+{
+  "main": {
+    "id": "2e1fd2e999022306",
+    "type": "split",
+    "children": [
+      {
+        "id": "fd1c23c6b397d2ad",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "80e520e4974ed011",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Extras/Images/ddc23-summaries.pdf"
+              }
+            }
+          },
+          {
+            "id": "d18d04f663da90d6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Calendar/Logs/Exc-20230722.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "3a9fc05d999ab280",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d8a57e6aa97b6f12",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "Calendar/Logs/Exc-20230722.md",
+                "options": {
+                  "collapse-filter": false,
+                  "search": "",
+                  "localJumps": 3,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": false,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.635624836353468,
+                  "close": true
+                }
+              }
+            }
+          },
+          {
+            "id": "38507a426f26d591",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Spaces/ObsPKMClass/Notes/Notes and MOCs.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a80eb9145a8ebf41",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "87f6e8793f7cc4fa",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "5b689dbfcf865d38",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "Kennedy ",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "6f0a7e0f79e1a3a4",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "4f343a71541a2d18",
+        "type": "leaf",
+        "state": {
+          "type": "recent-files",
+          "state": {}
+        }
+      },
+      {
+        "id": "5bb6b925e7f92b0b",
+        "type": "leaf",
+        "state": {
+          "type": "starred",
+          "state": {}
+        }
+      },
+      {
+        "id": "1b3a842595c96c4f",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 1
+  },
+  "right": {
+    "id": "e906ea1dae891a8c",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "604ef7f56cd95288",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "Calendar/Logs/Exc-20230722.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "7f1dc0c7473f8729",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "Calendar/Logs/Exc-20230722.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "bda178b43911487e",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "Calendar/Logs/Exc-20230722.md"
+          }
+        }
+      },
+      {
+        "id": "2f3c84833bba8fc9",
+        "type": "leaf",
+        "state": {
+          "type": "calendar",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "markdown-importer:Open format converter": false,
+      "workspaces:Manage workspace layouts": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "templater-obsidian:Templater": false,
+      "periodic-notes:Open today": false
+    }
+  },
+  "active": "d18d04f663da90d6",
+  "lastOpenFiles": [
+    "Calendar/Daily Notes/Notes/2023-07-19.md",
+    "Calendar/Logs/Exc-20230722.md",
+    "Atlas/Technology.md",
+    "Sources/Dataview Implicit Fields.md",
+    "Spaces/ObsPKMClass/Notes/Obsidian Markdown.md",
+    "Spaces/ObsPKMClass/Notes/Dataview.md",
+    "Spaces/ObsPKMClass/Notes/3.1 Dataview.md",
+    "Spaces/ObsPKMClass/Notes/Dataview Fields.md",
+    "Spaces/ObsPKMClass/Notes/Dataview FROM.md",
+    "Spaces/ObsPKMClass/Notes/Dataview WHERE.md",
+    "Spaces/ObsPKMClass/Notes/Dataview Queries.md",
+    "Cards/Logs.md",
+    "Calendar/Logs/Exc-20230711.md",
+    "Extras/Images/ddc23-summaries.pdf",
+    "+ New/Exc-20230721n.sync-conflict-20230721-155609-BBO7X7A.md",
+    "+ New/Exc-20230721n.md",
+    "+ New/Exc-20230719n.md",
+    "Spaces/ObsPKMClass/Notes/Notes and MOCs.md",
+    "+ New/Graph view script.md",
+    "+ New/Blender Tutorial.md",
+    "Calendar/Logs/Exc-20230717.md",
+    "+ New/Exc-20230717n.md",
+    "+ New/Royalty Free Music Sources.md",
+    "+ New/Audacity Tutorial.md",
+    "+ New/Exc-20230716.md",
+    "+ New/Exc-20230716.sync-conflict-20230716-134809-BBO7X7A.md",
+    "+ New/Audacity Tutorial.sync-conflict-20230715-111906-BBO7X7A.md",
+    "Spaces/ObsPKMClass/Notes/OPKMEssentials.canvas",
+    "Spaces/ObsPKMClass/Notes/OPKMEssentials.sync-conflict-20230701-033216-PJXCWFG.canvas",
+    "IMG_20230531_103738201.jpg",
+    "IMG_20230316_171759870.jpg",
+    "IMG_20230317_055441457.jpg",
+    "IMG_20230601_065834219.jpg",
+    "obsidian-icon.png",
+    "Reflected Text.png",
+    "IMG_20230618_132247002.jpg",
+    "Page 2.png",
+    "IMG_20230615_132147746.jpg",
+    "IMG_20230327_070830295.jpg",
+    "Color Palette Options.pdf",
+    "2 Rivers.xcf",
+    "Calendar/2022",
+    "Spaces/ObsPKMClass/Resources/Dataview_Resized.mp4",
+    "Extras/Images/windows-shortcuts.pdf",
+    "Extras/Images/inkscape-shortcuts.pdf",
+    "Extras/Images/Subnet-Guide.xlsx.pdf",
+    "Extras/Canvases/Obsidian Proverbs.canvas",
+    "Extras/Canvases/Obsidian and PKM Class Overview.canvas",
+    "Untitled.canvas",
+    "Spaces/Obsidian and PKM Class",
+    "Untitled 1",
+    "Obsidian/Test.canvas",
+    "Obsidian/Brian2/Brian2/Test.canvas",
+    "Obsidian/Brian2/Test.canvas"
+  ]
+}

@@ -17,8 +17,8 @@ Zettelers! 🤣
 
 
 ---
-up:: [[Introduction to Zettelkasten]]
+up:: [[1.1 Zettelkasten - Overview]]
 tags:: #on/PKM #note/product #effort/ObsPKMClass #note/reference 
 prev:: [[Niklas Luhmann]]
-next:: [[Atomic Notes]]
+next:: [[Enter Obsidian]]
 

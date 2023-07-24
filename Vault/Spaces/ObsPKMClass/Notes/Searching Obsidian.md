@@ -11,7 +11,7 @@ Here we really leverage the power of Obsidian. We will spend time later going th
 In Obsidian, nothing gets lost!
 
 ---
-up:: [[Introduction to Zettelkasten]]
+up:: [[1.2 Zettelkasten in Detail]]
 tags:: #on/PKM, #note/product, #effort/ObsPKMClass, #note/reference #on/Obsidian 
 prev:: [[Storage for life]]
 next:: [[Sharing your information]]

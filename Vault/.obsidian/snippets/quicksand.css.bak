@@ -1,0 +1,39 @@
+.qs {
+	font-family: "Quicksand";
+	font-weight: 500
+	}
+
+.quick {
+	font-family: "Quicksand";
+	src: url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap')
+}
+
+.qs-presentation h1,h2,h3,h4 {
+	text-align: center;
+}
+
+.qs-center {
+	text-align: center;
+}
+
+.qs-gold {
+	color: rgb(255,153,0);
+}
+
+.qs-big {
+	font-size: 24px
+}
+
+.qs-bold {
+	font-weight: 700
+}
+
+.qs-heavy {
+	font-weight: 900
+}
+
+.qs-700 {
+	font-weight: 700
+}
+
+

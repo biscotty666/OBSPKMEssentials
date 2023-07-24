@@ -15,16 +15,9 @@ __Note__:
 	- put a - before a field to negate inclusion (FROM clause)
 - You can use JavaScript to write queries allowing for sophisticated manipulation with calculated fields
 
-[[Query structure]]
-
-[[Dataview FROM|FROM]]
-
-[[Dataview WHERE|WHERE]]
-
-[[Dataview SORT|SORT]]
-
 ---
-up:: [[Zettelkasten Implementation in Obsidian|Implementation]]
+up:: [[3.1 Dataview]]
 tags:: #note/product #effort/ObsPKMClass, #note/reference #on/Obsidian #on/PKM 
 prev:: [[Dataview Fields]]
-next:: 
+next:: [[Dataview FROM]]
+

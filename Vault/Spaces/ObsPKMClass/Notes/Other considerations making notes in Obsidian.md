@@ -15,7 +15,8 @@ cssclass: "qs"
 - Sometimes it's good to leave a note for a while before returning to it to make it a permanent note
 
 ---
-up:: [[Zettelkasten Implementation in Obsidian|Implementation]]
+up:: [[3.0 Setting up Zettelkasten in Obsidian]]
 tags:: #note/product #effort/ObsPKMClass, #note/reference #on/Obsidian #on/PKM 
 prev:: [[Maps of content (MOC)]]
-next:: [[Obsidian Templates]]
+next:: [[Obsidian Folders|Folders]]
+

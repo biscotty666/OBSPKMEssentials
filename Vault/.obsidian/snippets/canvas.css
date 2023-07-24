@@ -1,0 +1,7 @@
+svg.canvas-background {
+	background: linear-gradient(80deg, #253B0B, #2c0149, #390B1C);
+}
+
+svg.canvas-background circle {
+	display: none;
+}

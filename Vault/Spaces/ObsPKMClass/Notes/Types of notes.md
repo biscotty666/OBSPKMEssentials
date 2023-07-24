@@ -33,7 +33,8 @@ These include
 - We will keep these in the `Cards` folder in our vault
 
 ---
-up:: [[Zettelkasten Implementation in Obsidian|Implementation]]
+up:: [[3.0 Setting up Zettelkasten in Obsidian]]
 tags:: #note/product #effort/ObsPKMClass, #note/reference #on/Obsidian #on/Markdown 
-prev:: [[Notes and MOCs]]
+prev:: [[Obsidian Embeds]]
 next:: [[Maps of content (MOC)]]
+

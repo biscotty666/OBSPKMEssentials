@@ -1,3 +1,19 @@
 {
-  "accentColor": ""
+  "cssTheme": "Dark Moss",
+  "translucency": false,
+  "baseFontSize": 17,
+  "enabledCssSnippets": [
+    "AlternateCheckboxes",
+    "quicksand",
+    "Quicksand-Online",
+    "canvas",
+    "mystyles"
+  ],
+  "textFontFamily": "",
+  "interfaceFontFamily": "",
+  "theme": "obsidian",
+  "accentColor": "",
+  "nativeMenus": true,
+  "showViewHeader": true,
+  "baseFontSizeAction": true
 }

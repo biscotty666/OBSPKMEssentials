@@ -1,18 +1,25 @@
 ---
-up: [[ObsPKMEssentials]]
-tags: on/Obsidian, note/product, effort/ObsPKMClass, note/reference, on/Markdown
 cssclass: "qs"
 ---
 ## Headers
 
-To create a header, enter from 1-6 `#` signs followed by a space. Headers provide
-- Visual structure
-- Provides hierarchy and nesting
-- Can be referenced directly in backlinks
-- Auto-generated tables of contents
-- Auto-generated folds
+Headers are the most important part of notes aside from the actual content. All notes should contain at least one header.
 
-Example:
+Q
+
+### Syntax
+
+To create a header, enter from one to six `#` signs followed by a space. 
+
+### Purpose
+
+- Larger font sizes and colors based on your active theme
+- Structure, like an outline or table of contents
+- Auto-generated folds to temporarily hide sections
+- Auto-generated outline in the right sidebar
+- Anchor points which can be referenced in backlinks
+
+### Examples
 
 `###### Header 6`
 
@@ -20,8 +27,9 @@ displays
 
 ###### Header 6
 
----
-up:: [[Markdown]]
+%%
+up:: [[2.1 Markdown]]
 tags:: #note/product #effort/ObsPKMClass, #note/reference #on/Obsidian #on/Markdown 
-prev:: [[Markdown]]
-next:: [[Emphasis]]
+prev:: [[Obsidian Markdown]]
+next:: [[Lists]]
+%%

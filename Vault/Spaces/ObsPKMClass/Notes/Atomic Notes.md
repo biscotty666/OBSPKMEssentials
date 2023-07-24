@@ -12,8 +12,8 @@ cssclass: "qs"
 6. Should contain metadata
 
 ---
-up:: [[Introduction to Zettelkasten]]
-[tags:: #on/PKM, #note/product, #effort/ObsPKMClass, #note/reference  ]
-[prev:: [[Sources of information]]]
-[next:: [[Obsidian Metadata]]]
+up:: [[1.2 Zettelkasten in Detail]]
+tags:: #on/PKM, #note/product, #effort/ObsPKMClass, #note/reference  
+prev:: [[Sources of information]]
+next:: [[Obsidian Metadata]]
 

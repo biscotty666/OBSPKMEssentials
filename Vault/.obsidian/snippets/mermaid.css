@@ -1,0 +1,4 @@
+.mermaid svg .note rect { 
+	color: blue; 
+	background-color: magenta !important; 
+}

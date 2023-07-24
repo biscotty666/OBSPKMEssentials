@@ -10,7 +10,7 @@ cssclass: "qs"
 
 
 ---
-up:: [[Introduction to Obsidian]]
+up:: [[2.0 Obsidian Intro]]
 tags:: #note/product #effort/ObsPKMClass, #note/reference #on/Obsidian 
 prev:: [[New Vault]]
-next:: [[Markdown]]
+next:: [[Obsidian Markdown]]

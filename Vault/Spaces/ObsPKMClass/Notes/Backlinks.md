@@ -1,4 +1,6 @@
-
+---
+cssclass: "qs"
+---
 ## Backlinks
 
 Link to other notes using `[[ ]]` around the name of the note.  You can hover over a link and press the Ctrl key for a preview of the linked document
@@ -29,18 +31,10 @@ You can directly link to a text block in another document by adding #^ directly 
 
 
 
-
-
-
-
-
-
-
-
 ---
 %%
-up:: [[Markdown]]
+up:: [[2.1 Markdown]]
 tags:: #note/product #effort/ObsPKMClass, #note/reference #on/Obsidian #on/Markdown 
 next:: [[Obsidian Embeds|Embeds]]
-prev:: [[Footnotes in Obsidian|Footnotes]]
+prev:: [[Obsidian Frontmatter|Frontmatter]]
 %%

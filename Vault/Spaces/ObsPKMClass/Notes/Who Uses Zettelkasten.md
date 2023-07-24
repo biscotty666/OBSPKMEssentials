@@ -7,7 +7,7 @@ Referring to NoteCards, an early example of computer-based zettelkasten and the 
 > Its intended users are authors, researchers, designers, and other intellectual laborers engaged in analyzing information, constructing models, formulating arguments, designing artifacts, and generally processing ideas. [^1]
 
 %%
-up:: [[Introduction to Zettelkasten]]
+up:: [[1.1 Zettelkasten - Overview]]
 tags:: #on/PKM, #note/product, #effort/ObsPKMClass  
 prev:: [[Zettelkasten Definition]]
 next:: [[Zettelkasten History]]

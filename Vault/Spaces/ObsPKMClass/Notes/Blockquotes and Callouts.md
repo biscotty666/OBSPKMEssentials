@@ -1,3 +1,6 @@
+---
+cssclass: "qs"
+---
 ## Blockquotes and Callouts
 
 Start a line with > followed by a space.
@@ -57,7 +60,9 @@ Blockquotes and callouts can contain formatting, links and backlinks.
 - Quote
 
 ---
-up:: [[Markdown]]
+up:: [[2.1 Markdown]]
 tags:: #note/product #effort/ObsPKMClass, #note/reference #on/Obsidian #on/Markdown 
-prev:: [[Links]]
-next:: [[Tags]]
+prev:: [[Lists]]
+next:: [[Emphasis]]
+X:: [[Obsidian]] [[Atlas/Markdown|Markdown]]
+

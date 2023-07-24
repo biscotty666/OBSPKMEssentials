@@ -1,0 +1,8 @@
+h1 {
+	text-align: center;
+}
+
+:root {
+      --default-font: "Indie Flower", serif;
+      font-weight: 600;
+}

@@ -1,0 +1,8 @@
+{
+  "snapToObjects": true,
+  "snapToGrid": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "+ Encounters",
+  "cardLabelVisibility": "hover",
+  "zoomBreakpoint": 0.11
+}

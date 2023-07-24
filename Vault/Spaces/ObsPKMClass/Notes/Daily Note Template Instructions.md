@@ -12,7 +12,7 @@ cssclass: "qs"
 
 ---
 
-up:: [[Daily Notes in Obsidian - Basic]]
+up:: [[3.4 Daily Note]]
 tags:: #on/Obsidian, #on/PKM, #note/product, #effort/ObsPKMClass, #note/reference
-prev:: 
+prev:: [[Daily note template]]
 next:: 

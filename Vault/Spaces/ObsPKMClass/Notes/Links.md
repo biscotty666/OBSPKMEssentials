@@ -15,7 +15,7 @@ To display a description rather than a url place the description between square 
 
 
 ---
-up:: [[Markdown]]
+up:: [[2.1 Markdown]]
 tags:: #note/product #effort/ObsPKMClass, #note/reference #on/Obsidian #on/Markdown 
-prev:: [[Lists]]
-next:: [[Blockquotes and Callouts]]
+prev:: [[Emphasis]]
+next:: [[Codeblocks]]

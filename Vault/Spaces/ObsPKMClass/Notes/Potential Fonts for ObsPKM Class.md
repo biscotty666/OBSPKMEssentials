@@ -1,5 +1,5 @@
 up:: [[ObsPKMEssentials]]
-tags:: #effort/ObsPKMClass #note/new 
+tags:: #effort/ObsPKMClass #note/fleeting 
 
 # Font ideas for ObsPKM Class
 

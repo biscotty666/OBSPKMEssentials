@@ -1,3 +1,6 @@
+---
+cssclass: "qs"
+---
 ## Lists
 
 All lists can be nested/un-nested using `Tab` and `Shft-Tab`. Folds are automatically created for nested lists.
@@ -35,8 +38,9 @@ Begin a line with `- [ ]`. A shortcut is `Ctrl-Space`
 
 ---
 %%
-up:: [[Markdown]]
+up:: [[2.1 Markdown]]
 tags:: #on/Obsidian #on/Markdown #effort/ObsPKMClass #note/product #note/reference 
-prev:: [[Emphasis]]
-next:: [[Links]]
+prev:: [[Headers]]
+next:: [[Blockquotes and Callouts]]
+X:: [[Atlas/Markdown|Markdown]]
 %%

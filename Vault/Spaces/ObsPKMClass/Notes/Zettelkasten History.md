@@ -9,7 +9,7 @@ cssclass: "qs"
 - Little used in the US until the $20^{th}$ century, where scholars still kept notes in books, or slips pasted in books
 
 ---
-up:: [[Introduction to Zettelkasten]]
+up:: [[1.1 Zettelkasten - Overview]]
 tags:: #on/PKM, #note/product, #effort/ObsPKMClass  #note/reference 
 prev:: [[Who Uses Zettelkasten|Zettelkasten users]]
 next:: [[Computer Age Note-taking]]

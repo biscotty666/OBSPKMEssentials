@@ -10,7 +10,7 @@ PDAs and PCs allowed for more efficient storage and accessibility.
 
 
 ---
-up:: [[Introduction to PKM]]
+up:: [[1.0 Personal Knowledge Management]]
 tags:: #on/PKM, #note/product, #effort/ObsPKMClass  
 prev:: [[PKM Definition Wikipedia]]
 next:: [[Drawbacks to the traditional approach]]

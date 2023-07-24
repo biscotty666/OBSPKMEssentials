@@ -1,5 +1,6 @@
 ---
 cssclass: "qs"
+aliases: Embeds
 ---
 ## Embeds
 
@@ -38,8 +39,8 @@ These can be drag-and-dropped from anywhere in your filesystem.
 ![[HelloWorld.mp4]]
 
 ---
-up:: [[Markdown]]
+up:: [[2.1 Markdown]]
 tags:: #note/product #effort/ObsPKMClass, #note/reference #on/Obsidian #on/Markdown 
 prev:: [[Backlinks]]
-next:: [[Notes and MOCs]]
+next:: [[Types of notes]]
 

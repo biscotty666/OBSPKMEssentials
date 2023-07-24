@@ -12,7 +12,7 @@ Because of this you are not tied to any specific
 - financial obligation
 
 ---
-up:: [[Introduction to Zettelkasten]]
+up:: [[1.2 Zettelkasten in Detail]]
 tags:: #on/PKM, #note/product, #effort/ObsPKMClass, #note/reference #on/Obsidian 
-[prev:: [[Obsidian vaults|Vaults]]]
-[next:: [[Searching Obsidian]]]
+prev:: [[Obsidian vaults|Vaults]]
+next:: [[Searching Obsidian]]

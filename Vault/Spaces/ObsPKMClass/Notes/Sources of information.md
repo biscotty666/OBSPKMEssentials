@@ -8,7 +8,7 @@ cssclass: "qs"
 3. Interactions with others
 
 ---
-up:: [[Introduction to Zettelkasten]]
-[tags:: #on/PKM, #note/product, #effort/ObsPKMClass, #note/reference  ]
-[prev:: [[No laughing matter]]]
-[next:: [[Atomic Notes]]]
+up:: [[1.2 Zettelkasten in Detail]]
+tags:: #on/PKM, #note/product, #effort/ObsPKMClass, #note/reference  
+prev:: [[No laughing matter]]
+next:: [[Atomic Notes]]

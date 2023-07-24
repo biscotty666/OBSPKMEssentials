@@ -1,0 +1,27 @@
+{
+  "immediateReplace": true,
+  "suggester": true,
+  "historyPriority": true,
+  "historyLimit": 100,
+  "history": [
+    ":wink:",
+    ":thumbsup:",
+    ":date:",
+    ":smile:",
+    ":clock1030:",
+    ":boom:",
+    ":star:",
+    ":heartpulse:",
+    ":information_source:",
+    ":u5408:",
+    ":laughing:",
+    ":thumbsdown:",
+    ":bulb:",
+    ":cry:",
+    ":eyeglasses:",
+    ":fire:",
+    ":globe_with_meridians:",
+    ":mag_right:",
+    ":blue_book:"
+  ]
+}
